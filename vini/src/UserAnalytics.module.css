@@ -1,0 +1,1694 @@
+.mdIcon {
+    height: 20.5px;
+    width: 20.5px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .dropdown,
+  .dropdownField {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .dropdownField {
+    width: 45px;
+    border-radius: 9.1px;
+    background-color: var(--secondary-primary-white);
+    border: 1.1px solid var(--outline-theme-light-low-em);
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-direction: row;
+    align-items: center;
+    padding: var(--padding-smi-5) 10px var(--padding-smi-5) var(--padding-smi-5);
+  }
+  .dropdown {
+    position: absolute;
+    top: 0;
+    left: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+  }
+  .more {
+    height: 45.5px;
+    width: 45.5px;
+    position: relative;
+    display: none;
+  }
+  .imageRecognizerWrapper {
+    min-height: 100vh;
+    height: 100%;
+    width: 112px;
+    display: flex;
+    flex-direction: row;
+    /* align-items: flex-start;
+    justify-content: flex-start; */
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--color-midnightblue);
+  }
+  .analytics {
+    color: var(--color-darkorange);
+  }
+  .dashboard {
+    font-weight: 500;
+  }
+  .analyticsDashboard {
+    position: relative;
+    line-height: 44.15px;
+  }
+  .eventDispatcher {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-8xs-5) 0 0;
+  }
+  .cash,
+  .label {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: -0.02em;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .label {
+    height: 14.5px;
+    line-height: 17.98px;
+    font-weight: 500;
+    box-sizing: border-box;
+    padding-right: 0;
+  }
+  .cash {
+    height: 16.1px;
+    font-size: var(--font-size-base-4);
+    line-height: 20.54px;
+    color: var(--secondary-primary-white);
+  }
+  .labelParent {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .backgroundChild,
+  .backgroundItem {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 28.85px;
+    background-color: var(--primary-purple-blue-100);
+  }
+  .backgroundItem {
+    height: 85.2%;
+    width: 94.59%;
+    top: 7.17%;
+    right: 2.79%;
+    bottom: 7.62%;
+    left: 2.62%;
+    background-color: var(--color-darkorange);
+    z-index: 1;
+  }
+  .background {
+    height: 22.3px;
+    flex: 1;
+    position: relative;
+  }
+  .buy {
+    width: 24px;
+    position: relative;
+    letter-spacing: 0.05em;
+    line-height: 20px;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 24px;
+  }
+  .text {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    z-index: 2;
+  }
+  .textWrapper {
+    flex-direction: column;
+    padding: var(--padding-12xs) 0 0;
+    margin-left: -42px;
+  }
+  .button,
+  .buttonWrapper,
+  .smallActivity,
+  .textWrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .button {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 var(--padding-lg) 0 0;
+  }
+  .buttonWrapper,
+  .smallActivity {
+    box-sizing: border-box;
+  }
+  .buttonWrapper {
+    width: 61px;
+    flex-direction: column;
+    padding: var(--padding-10xs) 0 0;
+    text-align: center;
+    font-size: 11.6px;
+    color: var(--secondary-primary-white);
+  }
+  .smallActivity {
+    width: 156px;
+    border-radius: 8.79px;
+    background-color: #a0a8b5;
+    overflow: hidden;
+    flex-shrink: 0;
+    flex-direction: row;
+    padding: var(--padding-5xs) var(--padding-5xs) 6.4px var(--padding-mini);
+  }
+  .mdImageIcon {
+    height: 22px;
+    width: 22px;
+    position: relative;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+  .text1 {
+    width: 94px;
+    position: relative;
+    line-height: 27px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+  }
+  .mdRightIcon {
+    height: 19.8px;
+    width: 19.8px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .dropdown1,
+  .dropdownField1 {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .dropdownField1 {
+    border-radius: 8.79px;
+    background-color: var(--secondary-primary-white);
+    border: 1.1px solid var(--outline-theme-light-low-em);
+    overflow-x: auto;
+    flex-direction: row;
+    align-items: center;
+    padding: var(--padding-4xs-8) 11px var(--padding-4xs-8) 13.2px;
+    gap: var(--gap-4xs-8);
+  }
+  .dropdown1 {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .errorHandler,
+  .smallActivityParent,
+  .wallet {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .wallet {
+    justify-content: center;
+    font-size: var(--font-size-base-4);
+    color: var(--text-theme-light-high-em);
+    font-family: var(--font-abhaya-libre);
+  }
+  .errorHandler,
+  .smallActivityParent {
+    max-width: 100%;
+  }
+  .smallActivityParent {
+    justify-content: flex-start;
+    gap: 19px;
+    font-size: 10.3px;
+    color: var(--secondary-grey-400);
+  }
+  .errorHandler {
+    align-self: stretch;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .icon {
+    height: 56px;
+    width: 56px;
+    position: relative;
+    min-height: 56px;
+  }
+  .cash1,
+  .label1 {
+    position: relative;
+    letter-spacing: -0.02em;
+  }
+  .label1 {
+    width: 117px;
+    line-height: 24px;
+    font-weight: 500;
+    display: inline-block;
+  }
+  .cash1 {
+    align-self: stretch;
+    font-size: var(--display-text-extra-small-bold-size);
+    line-height: 32px;
+    color: var(--secondary-dark-grey-900);
+    white-space: nowrap;
+  }
+  .labelGroup,
+  .smallEarnings {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .labelGroup {
+    flex: 1;
+    flex-direction: column;
+    gap: var(--gap-12xs-4);
+  }
+  .smallEarnings {
+    width: 257px;
+    border-radius: var(--br-xl);
+    background-color: var(--secondary-primary-white);
+    overflow: hidden;
+    flex-shrink: 0;
+    flex-direction: row;
+    padding: var(--padding-xl) var(--padding-mid) var(--padding-2xl);
+    box-sizing: border-box;
+    gap: var(--gap-lg-2);
+  }
+  .icon1 {
+    height: 56px;
+    width: 56px;
+    position: relative;
+  }
+  .videoCardSvgrepocomIcon {
+    height: 36px;
+    width: 36px;
+    position: absolute;
+    margin: 0 !important;
+    top: calc(50% - 18px);
+    left: calc(50% - 18px);
+    overflow: hidden;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .iconParent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+  }
+  .cash2,
+  .label2 {
+    position: relative;
+    letter-spacing: -0.02em;
+  }
+  .label2 {
+    width: 117px;
+    line-height: 24px;
+    display: inline-block;
+  }
+  .cash2 {
+    align-self: stretch;
+    font-size: var(--display-text-extra-small-bold-size);
+    line-height: 32px;
+    color: var(--secondary-dark-grey-900);
+  }
+  .labelContainer {
+    flex: 1;
+    flex-direction: column;
+    gap: var(--gap-12xs-4);
+  }
+  .labelContainer,
+  .smallEarnings1,
+  .smallEarningsWrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .smallEarnings1 {
+    align-self: stretch;
+    border-radius: var(--br-xl);
+    background-color: var(--secondary-primary-white);
+    overflow: hidden;
+    flex-direction: row;
+    padding: var(--padding-xl) var(--padding-mid) var(--padding-2xl);
+    gap: var(--gap-lg-2);
+  }
+  .smallEarningsWrapper {
+    width: 266px;
+    flex-direction: column;
+    padding: 0 9px 0 0;
+    box-sizing: border-box;
+  }
+  .functionChainChild {
+    height: 56px;
+    width: 56px;
+    position: relative;
+  }
+  .timeSvgrepocomIcon {
+    height: 34px;
+    width: 34px;
+    position: absolute;
+    margin: 0 !important;
+    top: calc(50% - 17px);
+    left: calc(50% - 17px);
+    overflow: hidden;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .functionChain {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+  }
+  .label3,
+  .noClients {
+    position: relative;
+    letter-spacing: -0.02em;
+  }
+  .label3 {
+    width: 153px;
+    height: 23px;
+    line-height: 28px;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+  .noClients {
+    flex: 1;
+    line-height: 25px;
+    white-space: pre-wrap;
+  }
+  .graphIcon {
+    height: 62.8px;
+    width: 59.9px;
+    position: absolute;
+    margin: 0 !important;
+    top: -31px;
+    right: -29.9px;
+    object-fit: contain;
+    z-index: 1;
+  }
+  .noClientsParent {
+    align-self: stretch;
+    flex-direction: row;
+    position: relative;
+    font-size: 18px;
+    color: var(--secondary-dark-grey-900);
+  }
+  .logicalOperator,
+  .noClientsParent,
+  .shapeManager,
+  .smallNewClients {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .shapeManager {
+    align-self: stretch;
+    flex-direction: column;
+  }
+  .logicalOperator,
+  .smallNewClients {
+    box-sizing: border-box;
+  }
+  .logicalOperator {
+    width: 185px;
+    flex-direction: column;
+    padding: var(--padding-10xs) 0 0;
+  }
+  .smallNewClients {
+    flex: 1;
+    border-radius: var(--br-xl);
+    background-color: var(--secondary-primary-white);
+    overflow: hidden;
+    flex-direction: row;
+    padding: var(--padding-xl) var(--padding-mid) var(--padding-2xl);
+    gap: 18px;
+    min-width: 216px;
+    max-width: 100%;
+    font-size: var(--body-text-medium-bold-size);
+  }
+  .smallEarningsParent,
+  .title {
+    align-self: stretch;
+    display: flex;
+  }
+  .smallEarningsParent {
+    margin: 0;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 25px;
+    max-width: 100%;
+    white-space: nowrap;
+    text-align: left;
+    font-size: var(--body-text-small-medium-size);
+    color: var(--secondary-grey-600);
+    font-family: var(--display-text-extra-small-bold);
+  }
+  .title {
+    height: 40px;
+    position: relative;
+    letter-spacing: -0.02em;
+    line-height: 32px;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .tabContainer {
+    width: 257px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-xs) 0 0;
+    box-sizing: border-box;
+  }
+  .gpoints,
+  .today {
+    position: relative;
+    letter-spacing: -0.02em;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .today {
+    width: 127px;
+    height: 12px;
+    line-height: 20px;
+    font-weight: 500;
+  }
+  .gpoints {
+    align-self: stretch;
+    height: 20px;
+    font-size: var(--display-text-extra-small-bold-size);
+    line-height: 32px;
+    color: var(--secondary-dark-grey-900);
+  }
+  .tableManager {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 9px;
+  }
+  .b {
+    width: 42px;
+    position: relative;
+    letter-spacing: -0.02em;
+    line-height: 20px;
+    display: inline-block;
+    min-width: 42px;
+  }
+  .wrapper {
+    border-radius: 58px;
+    background-color: rgba(5, 205, 153, 0.1);
+    overflow: hidden;
+    align-items: flex-start;
+    padding: var(--padding-11xs) var(--padding-5xs);
+    text-align: center;
+    color: #05cd99;
+  }
+  .savesContent,
+  .slider,
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .savesContent {
+    flex: 1;
+    border-radius: var(--br-5xs);
+    background-color: var(--secondary-primary-white);
+    box-shadow: var(--shadows-soft-shadow-soft-shadow-style-1);
+    border: 1px solid var(--color-darkorange);
+    box-sizing: border-box;
+    overflow: hidden;
+    align-items: flex-end;
+    padding: var(--padding-mid) var(--padding-3xl) var(--padding-mini)
+      var(--padding-4xl);
+    gap: 32px;
+    min-width: 186px;
+    margin-left: -8px;
+    font-size: var(--body-text-extra-small-bold-size);
+    color: var(--secondary-grey-600);
+  }
+  .slider {
+    width: 535px;
+    align-items: flex-start;
+    row-gap: 20px;
+    max-width: 100%;
+  }
+  .daily {
+    flex: 1;
+    position: relative;
+    letter-spacing: -0.02em;
+    line-height: 24px;
+  }
+  .arrowDropUpIcon {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: contain;
+    min-height: 24px;
+  }
+  .modalWindow {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .modalWindow,
+  .progressBar,
+  .toggleSwitch {
+    display: flex;
+    align-items: flex-start;
+  }
+  .toggleSwitch {
+    width: 86px;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 4px 0 0;
+    box-sizing: border-box;
+    font-size: var(--body-text-small-medium-size);
+    color: var(--secondary-grey-600);
+  }
+  .progressBar {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+    gap: var(--gap-xl);
+  }
+  .dialogueBox {
+    width: 813.2px;
+    height: 1.3px;
+    position: absolute;
+    margin: 0 !important;
+    right: 29.8px;
+    bottom: 99.1px;
+    border-top: 1.3px dashed var(--neutral-colors-500);
+    box-sizing: border-box;
+  }
+  .k {
+    align-self: stretch;
+    position: relative;
+    line-height: 16px;
+    display: inline-block;
+    min-width: 17px;
+  }
+  .k1 {
+    width: 16px;
+    min-width: 16px;
+  }
+  .k1,
+  .k2,
+  .k3,
+  .k4 {
+    position: relative;
+    line-height: 16px;
+    display: inline-block;
+  }
+  .k2,
+  .k3 {
+    align-self: stretch;
+    min-width: 17px;
+  }
+  .k4 {
+    width: 16px;
+    min-width: 16px;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 var(--padding-12xs) 0 0;
+  }
+  .k5 {
+    width: 14px;
+    position: relative;
+    line-height: 16px;
+    display: inline-block;
+    min-width: 14px;
+  }
+  .header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 var(--padding-12xs) 0 0;
+  }
+  .gridContainer {
+    width: 9px;
+    position: relative;
+    line-height: 16px;
+    display: inline-block;
+    min-width: 9px;
+  }
+  .footer {
+    align-items: flex-end;
+    gap: 24.6px;
+  }
+  .carousel,
+  .dropdownTree,
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .carousel {
+    align-self: stretch;
+    align-items: flex-end;
+    gap: 27.7px;
+  }
+  .dropdownTree {
+    width: 17px;
+    align-items: flex-start;
+    gap: 24px;
+  }
+  .emptyChart,
+  .fillChart {
+    width: 8.6px;
+    position: relative;
+    border-radius: 2.59px;
+  }
+  .emptyChart {
+    flex: 1;
+    background-color: var(--neutral-colors-500);
+    z-index: 1;
+  }
+  .fillChart {
+    height: 26.3px;
+    background: linear-gradient(180deg, #f67e06, #ffc83a);
+  }
+  .emptyChartParent {
+    align-self: stretch;
+    width: 8.6px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-8xs);
+  }
+  .fillChart1,
+  .frameChild {
+    width: 8.6px;
+    position: relative;
+    border-radius: 2.59px;
+    z-index: 1;
+  }
+  .frameChild {
+    flex: 1;
+    background-color: var(--neutral-colors-500);
+  }
+  .fillChart1 {
+    height: 81.3px;
+    background: linear-gradient(180deg, #f67e06, #ffc83a);
+  }
+  .rectangleParent {
+    align-self: stretch;
+    width: 8.6px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-7xs-1);
+  }
+  .emptyChart1,
+  .fillChart2 {
+    width: 8.6px;
+    position: relative;
+    border-radius: 2.59px;
+    z-index: 1;
+  }
+  .emptyChart1 {
+    flex: 1;
+    background-color: var(--neutral-colors-500);
+  }
+  .fillChart2 {
+    height: 116px;
+    background: linear-gradient(180deg, #f67e06, #ffc83a);
+  }
+  .emptyChartGroup {
+    align-self: stretch;
+    width: 8.6px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-8xs);
+  }
+  .emptyChart2,
+  .fillChart3 {
+    width: 8.6px;
+    position: relative;
+    border-radius: 2.59px;
+  }
+  .emptyChart2 {
+    flex: 1;
+    background-color: var(--neutral-colors-500);
+    z-index: 1;
+  }
+  .fillChart3 {
+    height: 26.3px;
+    background: linear-gradient(180deg, #f67e06, #ffc83a);
+  }
+  .emptyChartContainer {
+    align-self: stretch;
+    width: 8.6px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-8xs);
+  }
+  .frameItem {
+    bottom: 79px;
+  }
+  .frameInner,
+  .frameItem,
+  .lineDiv,
+  .modalStack {
+    height: 1.3px;
+    width: 813.2px;
+    position: absolute;
+    margin: 0 !important;
+    right: -522.5px;
+    border-top: 1.3px dashed var(--neutral-colors-500);
+    box-sizing: border-box;
+  }
+  .frameInner {
+    bottom: 119.8px;
+  }
+  .lineDiv,
+  .modalStack {
+    top: 103px;
+  }
+  .modalStack {
+    top: 61.5px;
+  }
+  .emptyChart3,
+  .fillChart4 {
+    width: 8.6px;
+    position: relative;
+    border-radius: 2.59px;
+    z-index: 1;
+  }
+  .emptyChart3 {
+    flex: 1;
+    background-color: var(--neutral-colors-500);
+  }
+  .fillChart4 {
+    height: 76.7px;
+    background: linear-gradient(180deg, #f67e06, #ffc83a);
+  }
+  .focusRing,
+  .lineParent {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .focusRing {
+    flex-direction: column;
+    gap: var(--gap-8xs);
+  }
+  .lineParent {
+    width: 8.6px;
+    flex-shrink: 0;
+    flex-direction: row;
+    position: relative;
+  }
+  .emptyChart4,
+  .fillChart5 {
+    width: 8.6px;
+    position: relative;
+    border-radius: 2.59px;
+    z-index: 1;
+  }
+  .emptyChart4 {
+    flex: 1;
+    background-color: var(--neutral-colors-500);
+  }
+  .fillChart5 {
+    height: 116px;
+    background: linear-gradient(180deg, #f67e06, #ffc83a);
+  }
+  .frameDiv {
+    align-self: stretch;
+    width: 8.6px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-8xs);
+  }
+  .emptyChart5,
+  .fillChart6 {
+    width: 8.6px;
+    position: relative;
+    border-radius: 2.59px;
+    z-index: 1;
+  }
+  .emptyChart5 {
+    flex: 1;
+    background-color: var(--neutral-colors-500);
+  }
+  .fillChart6 {
+    height: 58.8px;
+    background: linear-gradient(180deg, #f67e06, #ffc83a);
+  }
+  .emptyChartParent1 {
+    align-self: stretch;
+    width: 8.6px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-8xs);
+  }
+  .emptyChart6,
+  .fillChart7 {
+    width: 8.6px;
+    position: relative;
+    border-radius: 2.59px;
+  }
+  .emptyChart6 {
+    flex: 1;
+    background-color: var(--neutral-colors-500);
+    z-index: 1;
+  }
+  .fillChart7 {
+    height: 32.8px;
+    background: linear-gradient(180deg, #f67e06, #ffc83a);
+  }
+  .emptyChartParent2 {
+    align-self: stretch;
+    width: 8.6px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-8xs);
+  }
+  .emptyChart7,
+  .fillChart8 {
+    width: 8.6px;
+    position: relative;
+    border-radius: 2.59px;
+    z-index: 1;
+  }
+  .emptyChart7 {
+    flex: 1;
+    background-color: var(--neutral-colors-500);
+  }
+  .fillChart8 {
+    height: 81.3px;
+    background: linear-gradient(180deg, #f67e06, #ffc83a);
+  }
+  .emptyChartParent3 {
+    align-self: stretch;
+    width: 8.6px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-7xs-1);
+  }
+  .emptyChart8,
+  .fillChart9 {
+    width: 8.6px;
+    position: relative;
+    border-radius: 2.59px;
+  }
+  .emptyChart8 {
+    flex: 1;
+    background-color: var(--neutral-colors-500);
+    z-index: 1;
+  }
+  .fillChart9 {
+    height: 26.3px;
+    background: linear-gradient(180deg, #f67e06, #ffc83a);
+  }
+  .emptyChartParent4 {
+    align-self: stretch;
+    width: 8.6px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-8xs);
+  }
+  .emptyChart9,
+  .fillChart10 {
+    width: 8.6px;
+    position: relative;
+    border-radius: 2.59px;
+    z-index: 1;
+  }
+  .emptyChart9 {
+    flex: 1;
+    background-color: var(--neutral-colors-500);
+  }
+  .fillChart10 {
+    height: 81.3px;
+    background: linear-gradient(180deg, #f67e06, #ffc83a);
+  }
+  .emptyChartParent5 {
+    align-self: stretch;
+    width: 8.6px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-7xs-1);
+  }
+  .emptyChart10,
+  .fillChart11 {
+    width: 8.6px;
+    position: relative;
+    border-radius: 2.59px;
+    z-index: 1;
+  }
+  .emptyChart10 {
+    flex: 1;
+    background-color: var(--neutral-colors-500);
+  }
+  .fillChart11 {
+    height: 116px;
+    background: linear-gradient(180deg, #f67e06, #ffc83a);
+  }
+  .emptyChartParent6,
+  .rowContainer {
+    display: flex;
+    align-items: flex-start;
+  }
+  .emptyChartParent6 {
+    align-self: stretch;
+    width: 8.6px;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: var(--gap-8xs);
+  }
+  .rowContainer {
+    width: 786.9px;
+    flex: 1;
+    overflow-x: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+    max-width: 100%;
+  }
+  .tooltipTracker {
+    align-self: stretch;
+    height: 1.3px;
+    position: relative;
+    border-top: 1.3px solid var(--neutral-colors-500);
+    box-sizing: border-box;
+  }
+  .boxContainer,
+  .columnContainer {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .columnContainer {
+    width: 811.9px;
+    flex-direction: column;
+    gap: 1.3px;
+  }
+  .boxContainer {
+    height: 266.7px;
+    flex-direction: row;
+    padding: 0 0 0 var(--padding-4xs-8);
+    box-sizing: border-box;
+  }
+  .jan {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: 0.06em;
+    line-height: 14px;
+    text-transform: uppercase;
+    display: inline-block;
+    min-width: 27px;
+  }
+  .janWrapper {
+    width: 29.6px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-10xs) 0 0;
+    box-sizing: border-box;
+  }
+  .feb {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: 0.06em;
+    line-height: 14px;
+    text-transform: uppercase;
+    display: inline-block;
+    min-width: 25px;
+  }
+  .febWrapper {
+    width: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-10xs) 0 0;
+    box-sizing: border-box;
+  }
+  .mar {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: 0.06em;
+    line-height: 14px;
+    text-transform: uppercase;
+    display: inline-block;
+    min-width: 29px;
+  }
+  .marWrapper {
+    width: 31.9px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-10xs) 0 0;
+    box-sizing: border-box;
+  }
+  .apr {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: 0.06em;
+    line-height: 14px;
+    text-transform: uppercase;
+    display: inline-block;
+    min-width: 26px;
+  }
+  .aprWrapper {
+    width: 28.9px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 2.9px 0 0;
+    box-sizing: border-box;
+  }
+  .may {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: 0.06em;
+    line-height: 14px;
+    text-transform: uppercase;
+    display: inline-block;
+    min-width: 29px;
+  }
+  .mayWrapper {
+    width: 30.6px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-11xs) 0 0;
+    box-sizing: border-box;
+  }
+  .jun {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: 0.06em;
+    line-height: 14px;
+    text-transform: uppercase;
+    display: inline-block;
+    min-width: 27px;
+  }
+  .junWrapper {
+    width: 31.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-8xs-5) 0 0;
+    box-sizing: border-box;
+  }
+  .jul {
+    width: 25px;
+    position: relative;
+    letter-spacing: 0.06em;
+    line-height: 14px;
+    text-transform: uppercase;
+    display: inline-block;
+    min-width: 25px;
+  }
+  .julWrapper {
+    width: 28.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-11xs) 0 0;
+    box-sizing: border-box;
+  }
+  .aug {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: 0.06em;
+    line-height: 14px;
+    text-transform: uppercase;
+    display: inline-block;
+    min-width: 29px;
+  }
+  .augWrapper {
+    width: 31.9px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-10xs) 0 0;
+    box-sizing: border-box;
+  }
+  .sep {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: 0.06em;
+    line-height: 14px;
+    text-transform: uppercase;
+    display: inline-block;
+    min-width: 25px;
+  }
+  .sepWrapper {
+    width: 28.4px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 3.4px 0 0;
+    box-sizing: border-box;
+  }
+  .oct {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: 0.06em;
+    line-height: 14px;
+    text-transform: uppercase;
+    display: inline-block;
+    min-width: 28px;
+  }
+  .octWrapper {
+    width: 30.2px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 2.2px 0 0;
+    box-sizing: border-box;
+  }
+  .dec,
+  .nov {
+    position: relative;
+    letter-spacing: 0.06em;
+    line-height: 14px;
+    text-transform: uppercase;
+    display: inline-block;
+  }
+  .nov {
+    width: 29px;
+    min-width: 29px;
+  }
+  .dec {
+    width: 32px;
+    flex-shrink: 0;
+  }
+  .dropdownList,
+  .frameContainer,
+  .stackContainer {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .frameContainer {
+    width: 807.2px;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .dropdownList,
+  .stackContainer {
+    justify-content: flex-start;
+  }
+  .stackContainer {
+    flex: 1;
+    flex-direction: column;
+    gap: 19.4px;
+    min-width: 534px;
+    text-align: center;
+    font-size: var(--font-size-smi-1);
+  }
+  .dropdownList {
+    align-self: stretch;
+    flex-direction: row;
+    gap: 4.6px;
+    text-align: right;
+    font-size: var(--font-size-sm-8);
+    color: var(--neutral-colors-text-gray);
+    font-family: var(--font-inter);
+  }
+  .frameGroup,
+  .largeBalance {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .largeBalance {
+    align-self: stretch;
+    border-radius: var(--br-xl);
+    background-color: var(--secondary-primary-white);
+    overflow: hidden;
+    align-items: flex-end;
+    padding: 24px 31px 24.9px;
+    box-sizing: border-box;
+    position: relative;
+    gap: 27px;
+    max-width: 100%;
+  }
+  .frameGroup {
+    flex: 1;
+    align-items: flex-start;
+    gap: var(--gap-10xl);
+    max-width: calc(100% - 288px);
+  }
+  .cash3,
+  .label4 {
+    position: relative;
+    letter-spacing: -0.02em;
+  }
+  .label4 {
+    line-height: 24px;
+    font-weight: 500;
+  }
+  .cash3 {
+    line-height: 32px;
+    display: inline-block;
+    min-width: 53px;
+  }
+  .cashWrapper {
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 0 45px;
+    font-size: var(--display-text-extra-small-bold-size);
+    color: var(--secondary-dark-grey-900);
+  }
+  .cashWrapper,
+  .frameWrapper1,
+  .labelParent1 {
+    display: flex;
+    align-items: flex-start;
+  }
+  .labelParent1 {
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 3px;
+  }
+  .frameWrapper1 {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0 25px 0 var(--padding-10xl);
+  }
+  .frameChild1 {
+    align-self: stretch;
+    height: 1px;
+    position: relative;
+    border-top: 1px solid var(--color-gainsboro);
+    box-sizing: border-box;
+  }
+  .label5,
+  .label6 {
+    position: relative;
+    letter-spacing: -0.02em;
+    line-height: 23px;
+    display: inline-block;
+    min-width: 64px;
+  }
+  .label6 {
+    min-width: 71px;
+  }
+  .labelParent2 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .noClients1,
+  .noClients2 {
+    width: 40px;
+    position: relative;
+    letter-spacing: -0.02em;
+    line-height: 25px;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+  .noClients2 {
+    width: 30px;
+  }
+  .noClientsGroup {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .frameParent2,
+  .frameWrapper3 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frameWrapper3 {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 var(--padding-4xl) 0 var(--padding-sm);
+    font-size: var(--font-size-xl);
+    color: var(--secondary-dark-grey-900);
+  }
+  .frameParent2 {
+    flex: 1;
+    flex-direction: column;
+    gap: 1px;
+  }
+  .frameParent1,
+  .frameWrapper2 {
+    align-self: stretch;
+    display: flex;
+  }
+  .frameWrapper2 {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 var(--padding-xl) 0 var(--padding-3xl);
+    font-size: var(--body-text-extra-small-bold-size);
+  }
+  .frameParent1 {
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 13.5px;
+  }
+  .smallChartChild {
+    align-self: stretch;
+    height: 1px;
+    position: relative;
+    border-top: 1px solid var(--color-gainsboro);
+    box-sizing: border-box;
+  }
+  .smallChart {
+    align-self: stretch;
+    border-radius: var(--br-xl);
+    background-color: var(--secondary-primary-white);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-lg) var(--padding-xs) 280px 19px;
+    gap: var(--gap-10xl);
+  }
+  .top {
+    width: 242px;
+    height: 11px;
+    display: none;
+    z-index: 1;
+  }
+  .rectangleDiv {
+    width: 8.8px;
+    height: 8.8px;
+    position: relative;
+    border-radius: 6.58px;
+    background-color: #ffcc91;
+  }
+  .rectangleWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-9xs-1) 0 0;
+  }
+  .listed {
+    position: relative;
+    display: inline-block;
+    min-width: 35px;
+  }
+  .frameParent3 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-4xs-8);
+  }
+  .frameChild2 {
+    width: 8.8px;
+    height: 8.8px;
+    position: relative;
+    border-radius: 6.58px;
+    background-color: var(--color-darkorange);
+    flex-shrink: 0;
+    debug_commit: f6aba90;
+  }
+  .rectangleContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-9xs-1) 0 0;
+  }
+  .rented {
+    position: relative;
+    display: inline-block;
+    min-width: 41px;
+    flex-shrink: 0;
+    debug_commit: f6aba90;
+  }
+  .frameParent4 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-4xs-8);
+  }
+  .groupIcon,
+  .keycontainer {
+    position: absolute;
+    margin: 0 !important;
+    z-index: 1;
+  }
+  .keycontainer {
+    top: 220px;
+    right: 56.5px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 29.8px;
+    font-size: var(--font-size-smi-1);
+    color: var(--black-20);
+    font-family: var(--font-inter);
+  }
+  .groupIcon {
+    width: 176.8px;
+    height: 176.8px;
+    right: 38.6px;
+    bottom: 36.2px;
+  }
+  .frameParent,
+  .frameWrapper,
+  .smallChartParent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .smallChartParent {
+    align-self: stretch;
+    flex-direction: column;
+    position: relative;
+  }
+  .frameParent,
+  .frameWrapper {
+    box-sizing: border-box;
+  }
+  .frameWrapper {
+    width: 259px;
+    flex-direction: column;
+    padding: var(--padding-12xs) 0 0;
+    font-size: var(--body-text-small-medium-size);
+    color: var(--secondary-grey-600);
+  }
+  .frameParent {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 var(--padding-sm) 0 0;
+    gap: var(--gap-10xl);
+    max-width: 100%;
+    font-size: var(--display-text-extra-small-bold-size);
+    color: var(--secondary-dark-grey-900);
+  }
+  .errorHandlerParent {
+    align-self: stretch;
+    flex-direction: column;
+    gap: 55.5px;
+    max-width: 100%;
+  }
+  .errorHandlerParent,
+  .userAnalytics,
+  .userAnalyticsInner {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .userAnalyticsInner {
+    width: 1206.7px;
+    flex-direction: column;
+    padding: 36px 0 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    text-align: left;
+    font-size: 26.5px;
+    color: var(--color-black);
+    font-family: var(--display-text-extra-small-bold);
+  }
+  .userAnalytics {
+    width: 100%;
+    position: relative;
+    background-color: #f8f8ff;
+    overflow: hidden;
+    flex-direction: row;
+    gap: 61px;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+  @media screen and (max-width: 1300px) {
+    .imageRecognizerWrapper{
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      z-index: 999;
+      width: 100px;
+    }
+    .userAnalytics {
+      flex-wrap: wrap;
+    }
+    .errorHandler,
+    .frameContainer,
+    .progressBar,
+    .slider,
+    .analyticsDashboard{
+      margin-left: 120px;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .errorHandler,
+    .frameContainer,
+    .progressBar,
+    .slider,
+    .smallEarningsParent {
+      flex-wrap: wrap;
+      margin-left: 100px;
+    }
+    .stackContainer {
+      min-width: 100%;
+    }
+    .dropdownList {
+      flex-wrap: wrap;
+    }
+    .frameGroup {
+      max-width: 100%;
+    }
+    .frameWrapper {
+      display: none;
+    }
+    .frameParent {
+      padding-left: var(--padding-10xl);
+      padding-right: var(--padding-10xl);
+      box-sizing: border-box;
+    }
+    .errorHandlerParent {
+      gap: 28px;
+    }
+    .userAnalytics {
+      gap: 30px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .analyticsDashboard {
+      font-size: 21px;
+      line-height: 35px;
+    }
+    .cash1,
+    .cash2,
+    .gpoints,
+    .title {
+      font-size: var(--font-size-lgi);
+      line-height: 26px;
+    }
+    .savesContent {
+      gap: 16px;
+      margin-left: 0;
+    }
+    .largeBalance {
+      padding-top: var(--padding-xl);
+      padding-bottom: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .cash3 {
+      font-size: var(--font-size-lgi);
+      line-height: 26px;
+    }
+    .noClients1,
+    .noClients2 {
+      font-size: var(--body-text-medium-bold-size);
+      line-height: 24px;
+    }
+    .smallChart {
+      padding-top: var(--padding-xl);
+      padding-bottom: 182px;
+      box-sizing: border-box;
+    }
+}

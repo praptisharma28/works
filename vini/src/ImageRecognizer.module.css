@@ -1,0 +1,85 @@
+.calculator {
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: var(--color-midnightblue); 
+    width: 100%;
+    height: 100%; */
+  }
+  .orangeLogo1 {
+    position: absolute;
+    top: 32px;
+    left: 21px;
+    width: 71px;
+    height: 46.8px;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .inputHandlerChild {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 8.01px;
+    background: linear-gradient(94.7deg, #f57e07, #f8dc7a);
+    box-shadow: 0 16px 44.04px rgba(238, 120, 108, 0.25);
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .inputHandler,
+  .inputHandlerItem {
+    position: absolute;
+    top: 19.1px;
+    left: 21px;
+    width: 15.7px;
+    height: 14px;
+    z-index: 2;
+  }
+  .inputHandler {
+    top: 315px;
+    left: 38px;
+    border-radius: 8.01px;
+    background: linear-gradient(94.7deg, #f57e07, #f8dc7a);
+    box-shadow: 0 16px 44.04px rgba(238, 120, 108, 0.25);
+    width: 58px;
+    height: 53px;
+    z-index: 1;
+  }
+  .imageRecognizerChild {
+    position: absolute;
+    top: 131px;
+    left: 58.8px;
+    width: 16px;
+    height: 14.4px;
+    z-index: 1;
+  }
+  .imageRecognizerInner,
+  .imageRecognizerItem {
+    position: absolute;
+    top: 271.3px;
+    left: 61.5px;
+    width: 9.9px;
+    height: 14.9px;
+    z-index: 1;
+  }
+  .imageRecognizerInner {
+    top: 199px;
+    left: 59px;
+    width: 14.9px;
+    height: 13.5px;
+  }
+  .document1SvgrepocomIcon,
+  .techSupportIcon {
+    position: absolute;
+    top: 848px;
+    left: 52px;
+    width: 31px;
+    height: 31px;
+    overflow: hidden;
+    z-index: 1;
+  }
+  .document1SvgrepocomIcon {
+    top: 892px;
+    width: 26px;
+    height: 26px;
+  }

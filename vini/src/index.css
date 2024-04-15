@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --display-text-extra-small-bold: "DM Sans";
+  --font-abhaya-libre: "Abhaya Libre";
+
+  /* font sizes */
+  --font-size-smi-1: 12.1px;
+  --font-size-xl: 20px;
+  --body-text-medium-bold-size: 16px;
+  --body-text-extra-small-bold-size: 12px;
+  --display-text-extra-small-bold-size: 24px;
+  --font-size-lgi: 19px;
+  --body-text-small-medium-size: 14px;
+  --font-size-sm-8: 13.8px;
+  --font-size-base-4: 15.4px;
+
+  /* Colors */
+  --black-20: #a5a8b1;
+  --color-darkorange: #f67e06;
+  --secondary-primary-white: #fff;
+  --color-gainsboro: #dde1eb;
+  --secondary-dark-grey-900: #1b2559;
+  --secondary-grey-600: #a3aed0;
+  --neutral-colors-text-gray: #615e83;
+  --primary-purple-blue-100: #e9e3ff;
+  --neutral-colors-500: #e5e5ef;
+  --outline-theme-light-low-em: #ececed;
+  --text-theme-light-high-em: #110c22;
+  --secondary-grey-400: #e9edf7;
+  --color-black: #000;
+  --color-midnightblue: #0f123f;
+
+  /* Gaps */
+  --gap-10xl: 29px;
+  --gap-4xs-8: 8.8px;
+  --gap-xl: 20px;
+  --gap-8xs: 5px;
+  --gap-7xs-1: 5.1px;
+  --gap-lg-2: 18.2px;
+  --gap-12xs-4: 0.4px;
+
+  /* Paddings */
+  --padding-sm: 14px;
+  --padding-10xl: 29px;
+  --padding-12xs: 1px;
+  --padding-9xs-1: 3.1px;
+  --padding-lg: 18px;
+  --padding-xs: 12px;
+  --padding-xl: 20px;
+  --padding-3xl: 22px;
+  --padding-4xl: 23px;
+  --padding-10xs: 3px;
+  --padding-11xs: 2px;
+  --padding-8xs-5: 4.5px;
+  --padding-4xs-8: 8.8px;
+  --padding-mid: 17px;
+  --padding-mini: 15px;
+  --padding-5xs: 8px;
+  --padding-2xl: 21px;
+  --padding-smi-5: 12.5px;
+
+  /* Border radiuses */
+  --br-6xs-6: 6.6px;
+  --br-xl: 20px;
+  --br-10xs-6: 2.6px;
+  --br-4xs-8: 8.8px;
+  --br-9xl-9: 28.9px;
+  --br-5xs: 8px;
+}
